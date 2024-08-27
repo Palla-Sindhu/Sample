@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register - Grocery Shop</title>
+
+    <style>
+       
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background-color: pink;
+
+        }
+        form {
+
+            background-color: lightblue;
+            padding: 20px;
+             border-radius: 5px;
+            box-shadow: 0 0 10px blue;
+
+            max-width: 500px;
+
+            margin: auto;
+
+        }
+
+
+        form label {
+            display: inline-block;
+            margin: 10px 0 5px;
+        }
+        form input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            width: 40%;
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<center>
+
+<body>
+        <h1><center>Registration</center></h1><br/>
+        <form id="registerForm">
+
+            <input type='text' placeholder='firstname' /><br><br>
+            <input type='text' placeholder='lastname' /><br><br>
+            <textarea rows="2" cols="20" placeholder='address' /></textarea> <br> <br>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="password" placeholder="confirmPassword" required>
+            <button type="submit">Register</button>
+            <button type='Reset' value='reset' >Reset</button>
+        </form>
+    </body>
+</center>
+</html>
